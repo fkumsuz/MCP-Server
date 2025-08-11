@@ -20,7 +20,7 @@ def handle_chat():
         response_message = "Sorry i dont know your name"
     else:
         # Kullanıcının mesajını geri dönen basit bir yanıt veriyoruz
-        response_message = f"Mesajınızı aldım: '{user_message}'"
+        response_message = f"I got your message: '{user_message}'"
 
     # Yanıtı JSON formatında döndür
     return jsonify({'response': response_message})
