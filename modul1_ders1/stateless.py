@@ -17,7 +17,7 @@ def handle_chat():
     # Bu fonksiyon stateless olduğu için önceki konuşmaları hatırlayamaz.
     # Bu örnekte, 'adım' kelimesi mesajda geçiyorsa, adınızı hatırlayamam diyor.
     if 'adım' in user_message.lower():
-        response_message = "Üzgünüm, adınızı hatırlamıyorum."
+        response_message = "Sorry i dont know your name"
     else:
         # Kullanıcının mesajını geri dönen basit bir yanıt veriyoruz
         response_message = f"Mesajınızı aldım: '{user_message}'"
